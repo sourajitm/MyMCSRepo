@@ -1,0 +1,11 @@
+spring.application.name=ConfigServer
+# Server port
+server.port=8888
+# Repository Location in Github
+spring.cloud.config.server.git.uri=https://github.com/sourajitm/config_repo.git
+# Github username
+spring.cloud.config.server.git.username=sourajitm
+# Github Password
+spring.cloud.config.server.git.password=Kgf2#123
+# Github default branch
+spring.cloud.config.server.git.default-label=main
