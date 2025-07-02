@@ -4257,3 +4257,40 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.lsp4e 1 0 2025-07-02 21:44:24.080
 !MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-02 21:46:37.787
+!MESSAGE [Info]	[fetchCompletions] Request 2f73569e-14c2-4eb2-9bc3-757e77b4f52f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 2090.758400000166ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-02 21:46:37.789
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-02 21:46:38.196
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-02 21:46:38.197
+!MESSAGE [Info]	[fetchCompletions] Request e2043d2b-cefa-41ae-b5ea-26d192d37b2a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 367.6541999997571ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-02 21:46:39.339
+!MESSAGE [Info]	[fetchCompletions] Request 6604284c-554b-48e9-a1fe-48f32c3c3b38 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 420.76289999997243ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-02 21:46:39.340
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-07-02 21:46:40.392
+!MESSAGE [Error]	[default] Error sending telemetry FetchError: Stream closed with error code NGHTTP2_REFUSED_STREAM
+    at fetch (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at UT.fetch (C:\snapshot\copilot-client\lib\src\network\helix.ts:94:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_ERROR',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-02 21:46:43.576
+!MESSAGE [Info]	[fetchCompletions] Request 5b858343-f206-47fc-b4cc-61f1226369aa at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 335.8925000000745ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-02 21:46:43.577
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
