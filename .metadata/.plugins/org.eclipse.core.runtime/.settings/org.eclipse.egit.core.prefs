@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\STSWorkspace\\MicroService\\MicroSVC2\\.git;
-GitRepositoriesView.GitDirectories.relative=MicroSVC2\\.git;
+GitRepositoriesView.GitDirectories=C\:\\STSWorkspace\\MicroService\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

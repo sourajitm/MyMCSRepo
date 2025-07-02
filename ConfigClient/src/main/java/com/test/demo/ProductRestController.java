@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/product")
 public class ProductRestController {
-   //Added comment
-   @Value("${my.app.title}")
+   //Added comment 
+@Value("${my.app.title}")
    private String title;
    
    
