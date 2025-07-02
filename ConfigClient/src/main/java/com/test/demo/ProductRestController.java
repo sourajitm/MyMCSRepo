@@ -15,6 +15,7 @@ public class ProductRestController {
 @Value("${my.app.title}")
    private String title;
    
+private String dummyvar;
    
    @GetMapping("/data")
    public ResponseEntity<String> showProductMsg() {
