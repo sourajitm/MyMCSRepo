@@ -19,7 +19,7 @@ public class ProductRestController {
    @GetMapping("/data")
    public ResponseEntity<String> showProductMsg() {
 	   
-	   
+	   //test
       return new ResponseEntity<String>("Value of title from Config Server: "+title, HttpStatus.OK);
    }
    
