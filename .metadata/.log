@@ -4294,3 +4294,15 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.lsp4e 1 0 2025-07-02 21:46:43.577
 !MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-03 06:02:48.154
+!MESSAGE [Info] Completion request timed out after 5000 milliseconds
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-03 06:02:48.689
+!MESSAGE [Info]	[fetchCompletions] Request 172293b2-76af-482f-8056-39dd1d0cb857 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 1847.6367999985814ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-03 06:02:50.207
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-03 06:02:50.207
+!MESSAGE [Info]	[fetchCompletions] Request 5ff91881-7795-4939-a47f-a131bc2b62bb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 1489.133900001645ms
