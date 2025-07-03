@@ -17,7 +17,12 @@ public class ProductRestController {
    
 private String dummyvar;
 
-  
+//for new branch
+private int feature1;
+
+   private String dummyvar2;
+   //Added comment 2
+   @Value("${my.app.dummyvar3}")
 
 private String dummyvar3;
    //dddd
