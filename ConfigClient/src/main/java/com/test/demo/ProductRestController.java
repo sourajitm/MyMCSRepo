@@ -17,7 +17,7 @@ public class ProductRestController {
    
 private String dummyvar;
 private String dummyvar2;
-   
+private String dummy5;   
    @GetMapping("/data")
    public ResponseEntity<String> showProductMsg() {
 	   
