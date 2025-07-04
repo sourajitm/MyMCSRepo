@@ -1,3 +1,0 @@
-server.port=9030
-eureka.client.service-url.default-zone=http://localhost:8761/eureka/
-my.svc1.title=Hello! My cart service 
