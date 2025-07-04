@@ -13,9 +13,11 @@ public class ConfigServerApplication {
 		System.out.println("Config Server is starting2...");
 		System.out.println("Config Server is starting22222...");
 		System.out.println("Config Server is starting33333...");
+
 		System.out.println("Config Server is starting44444...");
-		
-		
+
+		System.out.println("Config Server is 55555...");
+
 		SpringApplication.run(ConfigServerApplication.class, args);
 	}
 
