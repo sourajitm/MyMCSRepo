@@ -17,6 +17,7 @@ public class ProductRestController {
    
 private String dummyvar;
 
+
 //for new branch
 private int feature12;
 
@@ -25,6 +26,9 @@ private int feature12;
    @Value("${my.app.dummyvar3}")
 
 private String dummyvar3;
+
+
+
    //dddd
    @GetMapping("/data")
    public ResponseEntity<String> showProductMsg() {
